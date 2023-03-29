@@ -8,12 +8,13 @@ private ItemDeCarrito item1;
 private ItemDeCarrito item2;
 private ItemDeCarrito item3;
 
-    public Persona.Persona getComprador() {
-        return compradpr;
+
+    public Persona getComprador() {
+        return comprador;
     }
 
-    public void setCompradpr(Persona.Persona comprador) {
-        this.compradpr = comprador;
+    public void setComprador(Persona persona) {
+        this.comprador = comprador;
     }
 
     public ItemDeCarrito getItem1() {
@@ -41,7 +42,7 @@ private ItemDeCarrito item3;
     }
 
     public double precioFinal(){
-        double precio =0,0;
+        double precio =0.0;
 
         if (this.item1 != null){
             precio += this.item1.precioDelItem();

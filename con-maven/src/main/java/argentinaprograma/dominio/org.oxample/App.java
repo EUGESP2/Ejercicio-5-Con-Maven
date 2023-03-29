@@ -17,14 +17,14 @@ public class App
     {
         Persona unaPersona = new Persona("Eugenio", "Provenzano");
 
-        Producto cepilloDientes = new Producto("f1620","Cepillo de Dientes","500.0");
-        Producto pastaDeDientes = new Producto("F3420","Pasta de Dientes","620.0");
+        Producto cepilloDientes = new Producto("f1620","Cepillo de Dientes",500.0);
+        Producto pastaDeDientes = new Producto("F3420","Pasta de Dientes",600.0);
 
         ItemDeCarrito cepillos = new ItemDeCarrito(cepilloDientes,2);
         ItemDeCarrito pastadental = new ItemDeCarrito(pastaDeDientes,1);
 
         CarritoDeCompra carritoDeEuge = new CarritoDeCompra();
-        carritoDeEuge.setCompradpr(unaPersona);
+        carritoDeEuge.setComprador(unaPersona);
         carritoDeEuge.setItem1(cepillos);
         carritoDeEuge.setItem2(pastadental);
 
