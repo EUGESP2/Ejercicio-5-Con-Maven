@@ -1,4 +1,7 @@
-package argentinaprograma.dominio.Main;
+import java.util.Properties;
+
+
+//package argentinaprograma.dominio.Main;
 
 import argentinaprograma.dominio.Persona.Persona;
 import argentinaprograma.dominio.Producto.CarritoDeCompra;
